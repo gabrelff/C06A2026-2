@@ -1,0 +1,16 @@
+public class Main {
+
+    public static void main(String[] args) {
+
+        Zumbi z1 = new Zumbi();
+        Zumbi z2 = new Zumbi();
+
+        z1.vida = 100;
+        z2.vida = 70;
+
+        z1.transfereVida(z2, 30);
+        System.out.println("Vida Zumbi 1: " + z1.vida);
+        System.out.println("Vida Zumbi 2: " + z2.vida);
+    }
+
+}
