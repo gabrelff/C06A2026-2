@@ -1,24 +1,60 @@
-# Compiled class file
+# Arquivos compilados
 *.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
 *.jar
 *.war
-*.nar
 *.ear
-*.zip
-*.tar.gz
-*.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Pastas de build
+target/
+build/
+out/
+bin/
+classes/
+
+# Arquivos de log
+*.log
+logs/
+
+# Arquivos de configuração de IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.settings/
+.project
+.classpath
+.vscode/
+*.swp
+*.swo
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos de ambiente
+.env
+*.properties.local
+application-*.properties
+application-*.yml
+
+# Arquivos de backup
+*.bak
+*.backup
+*.orig
+
+# Arquivos temporários
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Banco de dados
+*.db
+*.sqlite
+*.sqlite3
+
+# Arquivos de cobertura de teste
+coverage/
+.nyc_output/
+*.cover
