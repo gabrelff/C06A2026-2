@@ -12,4 +12,5 @@ public class Personagem {
     void tomarDano(){
         pontos -= 5;
     }
+
 }
