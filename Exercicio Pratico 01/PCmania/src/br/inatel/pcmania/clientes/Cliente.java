@@ -24,7 +24,6 @@ public class Cliente {
     }
     public float calculaTotalCompra(){
         float totalCompra = 0.0F;
-
         for (int i = 0; i < computador.length; i++){
             if(computador[i] != null){
                 totalCompra += computador[i].getPreco();

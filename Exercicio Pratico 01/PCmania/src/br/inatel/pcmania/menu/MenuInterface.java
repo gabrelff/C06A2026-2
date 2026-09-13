@@ -43,7 +43,6 @@ public class MenuInterface {
                     System.out.println("PC Apple adicionado");
                     break;
                 case 2:
-                    System.out.println("Promoção 2 (Samsung)");
                     HardwareBasico cpu2 = new HardwareBasico("Pentium Core i7", 3370);
                     HardwareBasico ram2 = new HardwareBasico("Memória RAM", 16);
                     HardwareBasico hd2 = new HardwareBasico("HD", 1000);
@@ -54,7 +53,6 @@ public class MenuInterface {
                     System.out.println("PC Samsung adicionado");
                     break;
                 case 3:
-                    System.out.println("Promoção 2 (Dell)");
                     HardwareBasico cpu3 = new HardwareBasico("Pentium Core i7", 4500);
                     HardwareBasico ram3 = new HardwareBasico("Memória RAM", 32);
                     HardwareBasico hd3 = new HardwareBasico("HD", 2000);
